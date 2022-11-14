@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# learn_react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Materials to cover:**
 
-## Available Scripts
+1. React
+2. Type Script
+3. CRUD (Create, Read, Update, and Delete)
+4. Angular
 
-In the project directory, you can run:
+## Notes on React:
 
-### `npm start`
+[video for the following notes](https://www.youtube.com/watch?v=Ke90Tje7VS0)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React is a JavaScript library develloped at Facebook.
+- Angular is another library (competing with React).
+- React applications are made by **_Componets_**, a piece of the User Interface. One develops a variety of independat, isolated and reusable components that mixed together make a complex user interface.
+- Every React application has at least **one** component, refered as the _root_ component. This _root_ represent the internal application and contains other child components.
+- A React application is a _tree of components_.
+- A **component** is implemented as a JavaScript class, that has some **_state_** and a **_render method_**.
+  <br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[**DOM**](https://www.codecademy.com/resources/blog/what-is-dom/)
 
-### `npm test`
+- It means _Documented Object Model_.
+- It is how a web browser represents a web page internally.
+- DOM determines what content should be on a page and how each element of the conten.
+- DOM is structured as a _tree_, every object is hierarchically under other object.
+- Each DOM object "owns" its children. If you remove an object all its children will be also removed. Every object can have multiple children, but only one parent.
+  <br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[video for the following notes](https://www.youtube.com/watch?v=Ke90Tje7VS0)
 
-### `npm run build`
+- React is a Librery and Angular is a Framework.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##### To create a new React
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Open the terminal Windows Powershell
+2. Go to the directory where you want to create the app
+3. type **npx create-react-app [new name for the app]**
+4. type **npm start** to open a window in the default browser that will automatically update every changes we make in the React project we're working on.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> Left the video on min 16:07 "Your first React App"
 
-### `npm run eject`
+- Deleted all files inside src directory (App.css, App.js, App.test.js, index.css, index.js, logo.svg, reportWebVitals.js, setupTests.js)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Left video on time 1h:17m:30s**
+**Do the tutorial on [React website](https://reactjs.org/tutorial/tutorial.html)**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Check out bootstrap documentation**
